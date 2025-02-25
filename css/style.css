@@ -79,7 +79,7 @@ button:hover {
 }
 .lfp h4{
     flex-wrap: wrap;
-    padding: 0 190px;
+    padding: 0 19px;
 }
 
 .tff{
@@ -141,6 +141,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 .lfpbuttom{
     display: flex;
@@ -260,6 +261,7 @@ button:hover {
 
 .testimonials{
     color:rgba(37, 43, 66, 1);    ;
+    text-align: center;
 }
 
 .testimonialsbox{
@@ -592,4 +594,199 @@ footer p {
     padding: 22px;
     padding-left: 0;
     padding-top: 0;
+}
+
+.lfpdmtext-mobile{
+    display: none;
+}
+
+@media (max-width: 414px) {
+    body {
+        background-size: contain;
+    }
+
+    .lfp h1 {
+        font-size: 36px;
+    }
+    .macbook{
+        padding: 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .lfp h4 {
+        font-size: 16px;
+    }
+
+    .features h2, .lfpsubdoublemodule h2, .partnerstext h2 {
+        font-size: 32px;
+    }
+
+    .features h3, .lfpsub h3, .partnerstext h3 {
+        font-size: 20px;
+    }
+
+    .featuresdoudlemodule{
+        padding: 0 80px;
+    }
+
+    .featuresdoudlemodule-mobile{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .featuresphotosntext {
+        flex-direction: column;
+    }
+
+    .lfptext{
+        padding: 50px;
+    }
+
+    .lfptext h2{
+        font-size: 46px;
+    }
+
+    .lfpbuttom{
+        padding-top: 0;
+    }
+    
+    .lfpsub {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    .lfpdmtext-mobile{
+        display:block;
+        padding: 50px;
+        padding-top: 0;
+    }
+    
+    .lfpdmtext{
+        display: none;
+    }
+
+    .lfpsubdoublemodule {
+        max-width: 90%;
+    }
+    
+    .subscription-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .mobilenone{
+        display: none;
+    }
+
+    .lfpsubdoublemodule p {
+        font-size: 14px;
+    }
+
+    .stars{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .testimonialsbutton{
+        padding: 80px 0;
+    }
+
+    .partnersimg {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .testimonialsflex {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .partnersimg{
+        flex-direction: column;
+        display: flex;
+    }
+
+    .pricing {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .pricingtext{
+        padding: 0 60px;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+
+    .contactusicons{
+        display: flex;
+        flex-direction: row;
+        padding: 80px;
+    }
+
+    .contactmap, .contactphone, .contactemail {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .contactusform{
+        
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px 20px;
+    }
+    .footermenu h3{
+        padding: 0;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        
+    }
+
+    .map{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 340px;
+    }
+
+    .footermenu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footericon{
+        display: flex;
+        margin: 0;
+    }
+    body {
+        background-image: url('/images/@\ Gradient-mobile.png');
+        max-width: 100%;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    }
+
+    
+    nav ul {
+        display: none; 
+    }
 }
