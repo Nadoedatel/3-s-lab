@@ -1,5 +1,5 @@
 body{
-    background-image: url('/images/@\ Gradient\ \(1\).svg');
+    background-image: url('@\ Gradient\ \(1\).svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 0; 
@@ -775,7 +775,7 @@ footer p {
         margin: 0;
     }
     body {
-        background-image: url('/images/@\ Gradient\ \(2\).svg');
+        background-image: url('@\ Gradient\ \(2\).svg');
         max-width: 100%;
         text-align: center;
         overflow-x: hidden;
