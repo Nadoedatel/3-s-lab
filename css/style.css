@@ -773,7 +773,7 @@ footer p {
         margin: 0;
     }
     body {
-        background-image: url('/images/Gradient-mobile.png');
+        background-image: url('images/Gradient-mobile.png');
         max-width: 100%;
         text-align: center;
         overflow-x: hidden;
