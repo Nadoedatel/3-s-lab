@@ -4,9 +4,11 @@ body{
     background-size: cover;
     background-position: center 0; 
     height: 100vh;
+    max-width: 1440px;
     margin: 0;
     font-family: 'Roboto';
     color: rgba(255, 255, 255, 1);
+    justify-self: center;
 }
 
 header {
